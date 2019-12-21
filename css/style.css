@@ -1,0 +1,556 @@
+
+/* Glopal */ 
+
+@font-face{font-family:gzflat;src:url(../fonts/JF-Flat-regular.ttf);}
+body {
+    background: #FAFAFA;
+    direction: rtl;
+    font-family:'gzflat';
+}
+
+h1 {
+    font-size: 38px;
+    display: block;
+   margin-top: 0;
+}
+h2 {
+    font-size: 34px;
+}
+h3 {
+    font-size: 17px;
+}
+h1, h2, h3, h4, h5, h6 {
+    
+    font-weight: bold;
+    letter-spacing: -0.8px;
+    color: #353535;
+}
+
+p {
+    margin: 0 0 10px;
+    color: #737373;
+    color: #737373;
+    font-size: 17px;
+}
+
+
+a:hover {
+    outline: 0;
+    text-decoration: none;
+    color: #aaaaaa;
+}
+
+/* Start Navbar */
+.navbar-default {
+    background-color: #fafafa;
+}
+.navbar {
+    border-color: #fafafa;
+    border-width: 0;
+   
+}
+.navbar span {
+    margin-top: 0;
+}
+.navbar-nav li a {
+    line-height: 50px;
+    height: 50px;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #737373;
+    border-bottom: 1px solid #f2f2f2;
+}
+.navbar-toggle {
+    margin-top: 27px;
+    margin-bottom: 0px;
+    border: 0px;
+}
+
+.navbar-brand {
+    line-height: 86px;
+    height: 86px;
+    padding: 0 15px;
+}
+.navbar-brand img {
+        display: inline-block;
+        height: 36px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+header .osama {
+    margin-top: 21px;
+    margin-bottom: 38px;
+    padding: 0 15px;
+}
+.dual {
+    padding: 50px 0 0;
+}
+ header .dual img{
+    width: 72%;
+  
+}
+.loklok {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    color: #aaaaaa;
+    margin-bottom: 0px;
+    cursor: pointer;
+    margin-top: 13px;
+}
+header .mobo {
+    height: 50px;
+    height: 50px;
+    margin-right: 5px;
+	
+}
+/* End Header */
+
+
+/* Start Section */ 
+
+.section1 row {
+    padding:  0 100px;
+}
+.section1 img {
+    width: 90%;
+    margin-left: 20px;
+}
+.section1 .ezaha{
+ 
+    margin-top: 133px;
+}
+
+.fofo {
+    border-bottom: 1px solid #DDD;
+}
+.yellow {
+    width: 100px;
+    background: #ffd43f;
+    height: 7px;
+    border-radius: 2px;
+    border: 0;
+    height: 7px;
+    margin: 17px auto 20px 0px;
+    float: right;
+}
+.red {
+    background: #ff6158;
+}
+.blue {
+    background: #8bd4ce;
+}
+section {
+    padding: 25px 0;
+}
+.features {
+   
+    padding-right: 30px;
+    padding-left: 30px;
+}
+/* End section */
+
+/* Start Testimonial */ 
+
+.comment,
+comments{
+    margin-top: 150px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 690px;
+}
+.comments {
+    padding: 0;
+    margin-top: -18px;
+}
+.comments .row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.comment h3 {
+    padding: 0 13px;
+}
+.ricont {
+    position: absolute;
+}
+.lefcont {
+    position: absolute;
+}
+/* End testimonial */
+
+/* Start Subscribe */
+.scubscripe p {
+	margin-bottom: 30px;
+}
+.scubscripe h3{
+    line-height: 40px;
+}
+.scubscripe h3 span {
+	font-size: inherit;
+	color: #4491D0;
+}
+.scubscripe h2 {
+	font-size: 40px;
+}
+/* End Subscribe */
+
+/* Start Footer */
+footer {
+    padding: 0 0 45px;
+}
+.sky {
+        position: absolute;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    width: 100%;
+}
+footer .nav-link {
+    text-decoration: none;
+    margin: 0 10px;    
+    line-height: 30px;
+    color: #353535;
+    display: inline;
+    font-size: 12px;
+}
+
+span {
+    font-size: 12px;
+    margin-top: 30px;
+    margin-top: 30px;
+}
+.down {
+    margin: 25px;
+}
+.down span{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 11px;
+}
+.mid {
+    margin-bottom: 50px;
+}
+.mid a {
+    margin:  0 0 50px 0;
+}
+.mid img {
+    width: 16px;
+    height: 16px;
+    margin: 0 10px;
+}
+
+footer .footer-nav {
+    padding-top: 60px;
+}
+/*End Footer */
+
+
+
+
+
+
+/* Media ******************************************************/
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+/* custom */ 
+@media (max-width: 336px){
+	.scubscripe h2 {
+		font-size: 25px;
+	}
+    h2 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 13px;
+    }
+    h1 {
+    font-size: 32px;
+    }
+    h3 {
+        font-size: 14px;
+    }
+
+    .lefcont{
+        height: 25%;
+        left: -3%;
+        top: 115px;
+    }
+    .ricont {
+        height: 25%;
+        right: -3%;
+        top: 115px;
+    }
+	
+}
+@media (max-width: 399px){
+	.mobo {
+		margin-bottom: 10px;
+	}
+}
+@media only screen and (min-width : 320px) {
+    .anisa {
+        margin: 20px 0 50px;
+    }
+    .lefcont{
+        height: 25%;
+        left: -3%;
+        top: 115px;
+    }
+    .ricont {
+        height: 25%;
+        right: -3%;
+        top: 115px;
+    }
+                                                            
+}
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+    header .dual img {
+        width: 90%;
+    }
+}
+@media only screen and (max-width : 480px) {
+    header .dual img {
+        width: 100%;
+        height: 100%;
+        margin-left: -14px;
+    }
+}
+/* custom */
+@media (min-width: 404px){
+
+    footer .nav-link {
+        font-size: 15px;
+    }
+    .up {
+        padding: 0px 40px;
+    }
+}
+/* custom */
+@media (min-width: 544px) {
+    .features {
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+    .section1 img {
+        width: 80%;
+    }
+    .section1 img {
+        width: 80%;
+    }
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 627px) {
+    .lefcont{
+        height: 20%;
+        left: -5%;
+        top: 115px;
+    }
+    .ricont {
+        height: 20%;
+        right: -5%;
+        top: 115px;
+    }
+}
+@media only screen and (max-width : 768px) {
+    .hendy {
+        text-align: center;
+    }
+    .section1 .ezaha {
+        margin-top: 50px;
+    }
+    .msar .ezaha {
+        margin-top: 0;
+    }
+	.scubscripe h2 {
+		font-size: 30px;
+	}
+}
+@media only screen and (min-width : 768px) {
+    .features {
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 13px;
+    }
+    .yellow {
+        width: 80px;
+    }
+    h1 {
+        font-size: 34px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .comment h3 {
+        padding: 0 8px;
+    }
+    .navbar-brand img {
+        height: 31px;
+    }
+    .navbar-brand {
+        line-height: 91px;
+        height: 91px;
+        padding: 0 15px;
+    }
+    .navbar-nav li a {
+        line-height: 91px;
+        height: 91px;
+        border-bottom: 0px;
+    }
+    .section1 img {
+        width: 100%;
+        margin-left: -5px;
+    }
+    .section1 .ezaha {
+    margin-top: 116px;
+    }
+    .navbar-right {
+        padding: 0;
+    }
+    header .dual img {
+        width: 72%;
+    }
+    .anisa {
+        margin: 20px 0 75px;
+    }
+    .lefcont{
+        height: 30%;
+        left: -5%;
+        top: 115px;
+    }
+    .ricont {
+        height: 30%;
+        right: -5%;
+        top: 115px;
+    }
+    .adjust {
+        float: right;
+    }
+}   
+@media (max-width: 336px){
+	.scubscripe h2 {
+		font-size: 25px;
+	}
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .features {
+        padding-right: 150px;
+        padding-left: 150px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    .section1 img {
+        width: 100%;
+        margin-left: 5px;
+    }
+    .section1 .ezaha {
+        margin-top: 141px;
+    }
+    .ricont {
+        height: 30%;
+        right: -5%;
+        top: 115px;
+    }
+    .lefcont{
+        height: 30%;
+        left: -5%;
+        top: 115px;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .features {
+        padding-right: 175px;
+        padding-left: 175px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 16px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    .comment h3 {
+        padding: 0;
+    }
+    .navbar-brand img {
+        height: 50px;
+    }
+    .navbar-brand {
+        line-height: 130px;
+        height: 130px;
+        padding: 0 15px;
+    }
+    .navbar-nav li a {
+        line-height: 139px;
+        height: 130px;
+        border-bottom: 0px;
+    }
+    .yellow {
+        width: 100px;
+    }
+    .section1 img {
+        width: 90%;
+        margin-left: -2px;
+    }
+    .section1 .ezaha {
+        margin-top: 154px;
+        margin-right: 35px;
+    }
+    .anisa {
+        margin: 100px 0;
+    }
+    .ricont {
+        height: 37%;
+        right: -2%;
+        top: 103px;
+    }
+    .lefcont{
+        height: 37%;
+        left: -2%;
+        top: 103px;
+    }
+}
+
+
+/*================================================================= Custom modification on media ===========================================*/
+
+
+
+
+
+
+
+
+
